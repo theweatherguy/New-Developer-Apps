@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonTapped(_ sender: Any) {
-        
+       
+        print(text1.text!)
+        print(text2.text!)  
         
     }
     override func viewDidLoad() {
